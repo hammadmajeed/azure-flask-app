@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "undefined/subscriptions/77d6295f-2907-49d5-8d51-03647927704c/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/mlops-2024-flask-app",
+    "appService.deploySubpath": "."
+}
