@@ -12,7 +12,10 @@ def change():
     print("I am inside change")
     return 'Hello World! I am changed'
 
-
+@app.route('/change/add/<x>/<y>', methods=['GET'])
+def add(x, y):
+    print("I am inside add")
+    return str(int(x) + int(y))
 
 if __name__ == '__main__':
     app.run( host='0.0.0.0', port=5000, debug=True) # note that host='0.0.0.0' is imp for external access
